@@ -1,0 +1,21 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/section';
+@import './components/studio-title';
+@import './components/logo';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/peculiarities';
+@import './layout/about';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/form';
+@import './layout/backdrop';
+
+@import './layout/portfolio/_main';
