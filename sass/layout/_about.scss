@@ -35,3 +35,9 @@
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
 }
+
+@media screen and (max-width: 1200px) {
+  .about {
+    display: none;
+  }
+}

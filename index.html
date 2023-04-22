@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header__container">
         <nav class="header__container">
           <a class="logo" href="" lang="en"
@@ -61,19 +61,19 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
 
     <!-- main -->
     <main>
       <!-- hero -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container hero__container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="main-btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- peculiarities -->
       <section class="peculiarities section">
@@ -169,11 +169,50 @@
 
       <!-- team -->
       <section class="team section">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="studio-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__item">
-              <img src="./imges/team-1.jpg" alt="Ігор Дем'яненко" width="270" />
+
+<picture class="tt">
+                       <!-- ---------1200------------ -->
+               <source 
+                    media="(min-width:1200px)"
+                srcset="./imges/webp/team-1.webp 1x, ./imges/webp/team-1@2x.webp 2x"
+                type="image/webp"
+                    />
+                      <source 
+                    media="(min-width:1200px)"
+                srcset="./imges/team-1.jpg 1x, ./imges/team-1@2x.jpg 2x"
+                    />
+
+
+                    <!-- --------768---------- -->
+                     <source class="tt"
+                    media="(min-width:768px)"
+                srcset="./imges/tablet/wedp/team-1.webp 1x, ./imges/tablet/wedp/team-1@2x.webp 2x"
+                type="image/webp"
+                    />
+                      <source class="tt"
+                    media="(min-width:768px)"
+                srcset="./imges/tablet/team-1.jpg 1x, ./imges/tablet/team-1@2x.jpg 2x"
+                    />
+
+         <!-- -----------------480------------ -->
+                       <source 
+                    media="(min-width:480px)"
+                srcset="./imges/mobile/webp/team-1.webp 1x, ./imges/mobile/webp/team-1@2x.webp 2x"
+                type="image/webp"
+                    />
+                    <source 
+                    media="(min-width:480px)"
+                srcset="./imges/mobile/team-1.jpg 1x, ./imges/mobile/team-1@2x.jpg 2x"
+                    />
+                    <img src="./imges/team-1.jpg" alt="veb-site"/>
+</picture>
+
+              <!-- <img src="./imges/team-1.jpg" alt="Ігор Дем'яненко" width="270" /> -->
+
               <div class="team-item-bottom">
                 <h3 class="team-title">Ігор Дем'яненко</h3>
                 <p class="team-description">Product Designer</p>
@@ -340,7 +379,7 @@
       </section>
 
       <!-- clients -->
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <h2 class="studio-title">Постійні клієнти</h2>
           <ul class="clients-list">
@@ -389,11 +428,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-left">
           <a class="logo" href="" lang="en"
@@ -482,9 +521,9 @@
           <svg class="modal-item" width="18" height="18">
             <use href="./imges/sprite.svg#icon-close-black"></use>
           </svg>
-        </button>
+        </button> -->
    <!-- form -->
-        <form class="backdrop-form">
+        <!-- <form class="backdrop-form">
           <p class="backdrop-form__title">
             Залиште свої дані, ми вам передзвонимо
           </p>
@@ -550,8 +589,8 @@
           </div>
           <button class="modal-submit" type="submit">Відправити</button>
         </form>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
