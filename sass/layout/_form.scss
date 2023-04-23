@@ -5,7 +5,7 @@
 .form__input {
   margin-top: 20px;
   height: 50px;
-  width: 350px;
+  
   background-color: transparent;
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -24,6 +24,7 @@
   position: relative;
   display: inline-flex;
   justify-content: flex-start;
+  max-width: 20px;
   letter-spacing: 0.06em;
   padding: 10px 28px;
   margin-left: 12px;
@@ -38,5 +39,17 @@
     width: 24px;
     height: 24px;
     background-image: url(../imges/icon-send.svg);
+  }
+}
+@media screen and (min-width: 320px) {
+  .form__input{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form__input {
+width: 350px;
   }
 }
