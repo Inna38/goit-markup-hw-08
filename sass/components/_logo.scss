@@ -12,6 +12,13 @@
     color: var(--accent-text-color);
   }
     @media screen and (min-width: 320px) {
-      margin-right: 0;
+      margin-right: 88px;
     }
+}
+
+@media screen and (max-width: 768px){
+.mobile-logo {
+    display: block;
+    margin-top: 16px;
+  }
 }

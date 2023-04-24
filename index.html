@@ -24,57 +24,78 @@
   </head>
   <body>
     <!-- header -->
-    <!-- <header class="header">
-      <div class="container header__container">
-        <nav class="header__container">
-          <a class="logo" href="" lang="en"
+    <header class="header">
+      <div class="container header__container mobile-container ">
+        <a class="logo mobile-logo" href="" lang="en"
             ><span class="logo__accent">Web</span>Studio</a
           >
-          <ul class="header__container">
-            <li class="nav-list-item">
-              <a class="nav-link current" href="">Студія</a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="">Контакти</a>
-            </li>
+      <!-- <div class="header__container mobile-container"> -->
+          <nav class="header__container mobile-container__nav">
+            
+            <ul class="header__container">
+              <li class="nav-list-item">
+                <a class="nav-link current" href="">Студія</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+  
+            <ul class="header__container header-left">
+              <li class="header-list-item">
+                <a class="header-contacts mail" href="mailto:info@devstudio.com">
+                  <svg class="contacts-item" width="16" height="12">
+                    <use href="./imges/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header-list-item">
+                <a class="header-contacts numder" href="tel:+380961111111">
+                  <svg class="contacts-item" width="10" height="16">
+                    <use href="./imges/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+   
+          <ul class="mobile-social-list">
+            <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">Instagram</a></li>
+            <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">Twitter</a></li>
+            <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">Facebook</a></li>
+            <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">LinkedIn</a></li>
           </ul>
-        </nav>
-        <ul class="header__container header-left">
-          <li class="header-list-item">
-            <a class="header-contacts" href="mailto:info@devstudio.com">
-              <svg class="contacts-item" width="16" height="12">
-                <use href="./imges/sprite.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-contacts" href="tel:+380961111111">
-              <svg class="contacts-item" width="10" height="16">
-                <use href="./imges/sprite.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+            <svg class="burger-close" width="40" height="40">
+            <use href="./imges/spriteburger.svg#icon-close-black"></use>
+          </svg>
+       <!-- </div>     -->
+          <svg class="burger" width="40" height="40">
+            <use href="./imges/spriteburger.svg#icon-menu_burger"></use>
+          </svg>
+
+          
+     
       </div>
-    </header> -->
+    </header>
 
     <!-- main -->
     <main>
       <!-- hero -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container hero__container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="main-btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
-      </section> -->
-
+      </section> 
+<img src="" alt="">
+ <!-- <img src="./imges/mobile/header@2x.jpg" alt="">  -->
       <!-- peculiarities -->
       <section class="peculiarities section">
         <div class="container">
@@ -140,27 +161,46 @@
           <h2 class="studio-title">Чим ми займаємося</h2>
           <ul class="about__list">
             <li class="about-list__item">
-              <img
-                src="./imges/about-1.jpg"
-                alt="робота за компьютером"
-                width="370"
-              />
+                               
+<picture>
+  <source
+  srcset="./imges/webp/about-1.webp 1x, ./imges/webp/about-1@2x.webp 2x"
+  type="image/webp"
+  />
+    <source
+  srcset="./imges/about-1.jpg 1x, ./imges/about-1@2x.jpg 2x"
+   />
+  <img src="./imges/about-1.jpg" alt="робота за компьютером"  width="370"> 
+</picture>
+            
               <p class="about__description">десктопні додатки</p>
             </li>
             <li class="about-list__item">
-              <img
-                src="./imges/about-2.jpg"
-                alt="робота за ноутбуком"
-                width="370"
-              />
+<picture>
+  <source
+  srcset="./imges/webp/about-2.webp 1x, ./imges/webp/about-2@2x.webp 2x"
+  type="image/webp"
+  />
+    <source
+  srcset="./imges/about-2.jpg 1x, ./imges/about-2@2x.jpg 2x"
+   />
+  <img src="./imges/about-2.jpg" alt="робота за ноутбуком"  width="370"> 
+</picture>              
+              
               <p class="about__description">мобільні додатки</p>
             </li>
             <li class="about-list__item">
-              <img
-                src="./imges/about-3.jpg"
-                alt="робота на планшеті"
-                width="370"
-              />
+<picture>
+  <source
+  srcset="./imges/webp/about-3.webp 1x, ./imges/webp/about-3@2x.webp 2x"
+  type="image/webp"
+  />
+    <source
+  srcset="./imges/about-3.jpg 1x, ./imges/about-3@2x.jpg 2x"
+   />
+  <img src="./imges/about-3.jpg" alt="робота на планшеті"  width="370"> 
+</picture>               
+              
               <p class="about__description">дизайнерські рішення</p>
             </li>
           </ul>
@@ -175,7 +215,7 @@
             <li class="team-list__item">
 
 <picture>
-                       <!-- ---------1200------------ -->
+                     
                <source 
                     media="(min-width:1200px)"
                 srcset="./imges/webp/team-1.webp 1x, ./imges/webp/team-1@2x.webp 2x"
@@ -187,7 +227,7 @@
                     />
 
 
-                    <!-- --------768---------- -->
+                 
                      <source 
                     media="(min-width:768px)"
                 srcset="./imges/tablet/wedp/team-1.webp 1x, ./imges/tablet/wedp/team-1@2x.webp 2x"
@@ -198,7 +238,6 @@
                 srcset="./imges/tablet/team-1.jpg 1x, ./imges/tablet/team-1@2x.jpg 2x"
                     />
 
-         <!-- -----------------320------------ -->
                        <source 
                     media="(min-width:320px)"
                 srcset="./imges/mobile/webp/team-1.webp 1x, ./imges/mobile/webp/team-1@2x.webp 2x"
@@ -212,7 +251,7 @@
 
 </picture>
 
-              <!-- <img src="./imges/team-1.jpg" alt="Ігор Дем'яненко" width="270" /> -->
+          
 
               <div class="team-item-bottom">
                 <h3 class="team-title">Ігор Дем'яненко</h3>
@@ -255,7 +294,7 @@
 
             <li class="team-list__item">
 <picture>
-                       <!-- ---------1200------------ -->
+                   
                <source 
                     media="(min-width:1200px)"
                 srcset="./imges/webp/team-2.webp 1x, ./imges/webp/team-2@2x.webp 2x"
@@ -267,7 +306,7 @@
                     />
 
 
-                    <!-- --------768---------- -->
+                  
                      <source 
                     media="(min-width:768px)"
                 srcset="./imges/tablet/wedp/team-2.webp 1x, ./imges/tablet/wedp/team-2@2x.webp 2x"
@@ -278,7 +317,7 @@
                 srcset="./imges/tablet/team-2.jpg 1x, ./imges/tablet/team-2@2x.jpg 2x"
                     />
 
-         <!-- -----------------320------------ -->
+    
                        <source 
                     media="(min-width:320px)"
                 srcset="./imges/mobile/webp/team-2.webp 1x, ./imges/mobile/webp/team-2@2x.webp 2x"
@@ -291,7 +330,7 @@
                     <img src="./imges/team-2.jpg" alt="Ольга Рєпіна"/>
 
 </picture>              
-              <!-- <img src="./imges/team-2.jpg" alt="Ольга Рєпіна" width="270" /> -->
+              
               <div class="team-item-bottom">
                 <h3 class="team-title">Ольга Рєпіна</h3>
                 <p class="team-description">Frontend Developer</p>
@@ -333,7 +372,7 @@
 
             <li class="team-list__item">
 <picture>
-                       <!-- ---------1200------------ -->
+                    
                <source 
                     media="(min-width:1200px)"
                 srcset="./imges/webp/team-3.webp 1x, ./imges/webp/team-3@2x.webp 2x"
@@ -345,7 +384,7 @@
                     />
 
 
-                    <!-- --------768---------- -->
+                 
                      <source 
                     media="(min-width:768px)"
                 srcset="./imges/tablet/wedp/team-3.webp 1x, ./imges/tablet/wedp/team-3@2x.webp 2x"
@@ -356,7 +395,7 @@
                 srcset="./imges/tablet/team-3.jpg 1x, ./imges/tablet/team-3@2x.jpg 2x"
                     />
 
-         <!-- -----------------320------------ -->
+    
                        <source 
                     media="(min-width:320px)"
                 srcset="./imges/mobile/webp/team-3.webp 1x, ./imges/mobile/webp/team-3@2x.webp 2x"
@@ -369,7 +408,7 @@
                     <img src="./imges/team-3.jpg" alt="Микола Тарасов"/>
 
 </picture>                
-              <!-- <img src="./imges/team-3.jpg" alt="Микола Тарасов" width="270" /> -->
+              
               <div class="team-item-bottom">
                 <h3 class="team-title">Микола Тарасов</h3>
                 <p class="team-description">Marketing</p>
@@ -411,7 +450,7 @@
 
             <li class="team-list__item">
 <picture>
-                       <!-- ---------1200------------ -->
+                      
                <source 
                     media="(min-width:1200px)"
                 srcset="./imges/webp/team-4.webp 1x, ./imges/webp/team-4@2x.webp 2x"
@@ -423,7 +462,7 @@
                     />
 
 
-                    <!-- --------768---------- -->
+                   
                      <source 
                     media="(min-width:768px)"
                 srcset="./imges/tablet/wedp/team-4.webp 1x, ./imges/tablet/wedp/team-4@2x.webp 2x"
@@ -434,7 +473,7 @@
                 srcset="./imges/tablet/team-4.jpg 1x, ./imges/tablet/team-4@2x.jpg 2x"
                     />
 
-         <!-- -----------------320------------ -->
+   
                        <source 
                     media="(min-width:320px)"
                 srcset="./imges/mobile/webp/team-4.webp 1x, ./imges/mobile/webp/team-4@2x.webp 2x"
@@ -447,7 +486,7 @@
                     <img src="./imges/team-4.jpg" alt="Михайло Єрмаков"/>
 
 </picture>                 
-              <!-- <img src="./imges/team-4.jpg" alt="Михайло Єрмаков" width="270" /> -->
+             
               <div class="team-item-bottom">
                 <h3 class="team-title">Михайло Єрмаков</h3>
                 <p class="team-description">UI Designer</p>
@@ -630,15 +669,15 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-item" width="18" height="18">
             <use href="./imges/sprite.svg#icon-close-black"></use>
           </svg>
-        </button>
+        </button> -->
    <!-- form -->
-        <!-- <form class="backdrop-form">
+         <!-- <form class="backdrop-form">
           <p class="backdrop-form__title">
             Залиште свої дані, ми вам передзвонимо
           </p>
@@ -703,9 +742,9 @@
             </label>
           </div>
           <button class="modal-submit" type="submit">Відправити</button>
-        </form>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
-  </body>
+        </form> -->
+      <!-- </div>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
+  </body> 
 </html>
