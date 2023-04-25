@@ -26,11 +26,17 @@
     <!-- header -->
     <header class="header">
       <div class="container header__container mobile-container ">
-        <a class="logo mobile-logo" href="" lang="en"
+      <a class="logo mobile-logo" href="" lang="en"
             ><span class="logo__accent">Web</span>Studio</a
           >
+                 <button type="button"  class="burger">
+            <svg width="40" height="40">
+              <use href="./imges/spriteburger.svg#icon-menu_burger"></use>
+            </svg>
+       </button>
       <!-- <div class="header__container mobile-container"> -->
-          <nav class="header__container mobile-container__nav">
+          
+          <nav class="header__container navigation-list mobile-container__nav ">
             
             <ul class="header__container">
               <li class="nav-list-item">
@@ -46,6 +52,51 @@
           </nav>
   
             <ul class="header__container header-left">
+              <li class="header-list-item">
+                <a class="header-contacts" href="mailto:info@devstudio.com">
+                  <svg class="contacts-item" width="16" height="12">
+                    <use href="./imges/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header-list-item">
+                <a class="header-contacts" href="tel:+380961111111">
+                  <svg class="contacts-item" width="10" height="16">
+                    <use href="./imges/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>   
+          
+       <!-- </div>     -->
+              
+      </div>
+
+      <div class="mobile-menu">
+        <button type="button" class="burger-close">
+           <svg  width="40" height="40">
+            <use href="./imges/spriteburger.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <nav class=" mobile-container__nav">
+            
+            <ul class="">
+              <li class="nav-list-item">
+                <a class="nav-link current" href="">Студія</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+  
+            <ul class="">
               <li class="header-list-item">
                 <a class="header-contacts mail" href="mailto:info@devstudio.com">
                   <svg class="contacts-item" width="16" height="12">
@@ -70,16 +121,6 @@
             <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">Facebook</a></li>
             <li class="mobile-social-list__item"><a class="mobile-social-list__link" href="">LinkedIn</a></li>
           </ul>
-            <svg class="burger-close" width="40" height="40">
-            <use href="./imges/spriteburger.svg#icon-close-black"></use>
-          </svg>
-       <!-- </div>     -->
-          <svg class="burger" width="40" height="40">
-            <use href="./imges/spriteburger.svg#icon-menu_burger"></use>
-          </svg>
-
-          
-     
       </div>
     </header>
 
@@ -745,6 +786,7 @@
         </form> -->
       <!-- </div>
     </div> -->
+    <script src="./js/mobile-menu.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body> 
 </html>
