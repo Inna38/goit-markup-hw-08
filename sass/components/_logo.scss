@@ -1,5 +1,4 @@
 .logo {
-  // margin-right: 92px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -11,9 +10,6 @@
   &-footer {
     color: var(--accent-text-color);
   }
-    @media screen and (min-width: 768px) {
-      // margin-right: 88px;
-    }
 }
 
 @media screen and (min-width: 1200px){

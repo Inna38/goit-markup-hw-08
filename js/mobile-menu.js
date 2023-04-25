@@ -1,3 +1,19 @@
+(() => {
+  const refs = {
+    openBtn: document.querySelector("[data-menu-open]"),
+    closeBtn: document.querySelector("[data-menu-close]"),
+    menu: document.querySelector("[data-menu]"),
+  };
+
+  refs.openBtn.addEventListener("click", toggleModal);
+  refs.closeBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    document.body.classList.toggle("menu-open")
+    refs.menu.classList.toggle("is-open");
+  }
+})();
+
 // (() => {
 //   const mobileMenu = document.querySelector('.js-menu-container');
 //   const openMenuBtn = document.querySelector('.js-open-menu');
@@ -27,17 +43,3 @@
 //   });
 // })();
 
-(() => {
-  const refs = {
-    openBtn: document.querySelector("[data-menu-open]"),
-    closeBtn: document.querySelector("[data-menu-close]"),
-    menu: document.querySelector("[data-menu]"),
-  };
-
-  refs.openBtn.addEventListener("click", toggleModal);
-  refs.closeBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.menu.classList.toggle("is-open");
-  }
-})();
