@@ -1,3 +1,6 @@
+.team{
+  background-color: #F5F4FA;
+}
 .team-list__item {
   max-width: 450px;
   margin-bottom: 30px;
@@ -8,7 +11,7 @@
 
 .team-item-bottom {
   text-align: center;
-  padding: 30px;
+  padding: 25px;
   background-color: #ffffff;
 }
 
@@ -73,6 +76,7 @@
     width: calc((100% - 60px) / 2);
     margin-left: var(--columns-gap);
     margin-top: var(--columns-gap);
+    margin-bottom: 0;
   }
 }
 

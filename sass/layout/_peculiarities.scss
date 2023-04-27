@@ -4,7 +4,6 @@
 
 .peculiarities-cart {
   height: 120px;
-
   background: #f5f4fa;
   display: flex;
   justify-content: center;
@@ -29,7 +28,14 @@
   color: #757575;
 }
 
+// @media screen and (min-width: 480px) and (max-width: 767px){
+// 
+// }
+
 @media screen and (min-width: 768px) {
+  .title{
+    text-align: left;
+  }
   .peculiarities-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +46,7 @@
     flex-basis: calc((100% - 60px) / 2);
     margin-top: var(--columns-gap);
     margin-left: var(--columns-gap);
+    margin-bottom: 0;
   }
 }
 

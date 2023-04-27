@@ -69,7 +69,7 @@
   .container-tablet {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
@@ -83,6 +83,13 @@
   }
   .footer-left {
     margin-right: 70px;
+  }
+  .footer-address {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .footer-right__list {
+    margin-bottom: 0;
   }
   .form {
     margin-left: auto;

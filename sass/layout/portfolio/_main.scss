@@ -57,6 +57,7 @@
 .portfilio-list-item {
   position: relative;
   overflow: hidden;
+  max-width: 450px;
 }
 
 .portfilio-item-description {
@@ -82,7 +83,7 @@
 }
 
 .main-item-bottom {
-  padding: 20px 24px;
+  padding: 20px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -103,32 +104,39 @@
 }
 
 @media screen and (min-width: 768px) {
+  .main-btn-list {
+    justify-content: center;
+  }
+
+// ---------main-list--------
   .main-list {
     display: flex;
     flex-wrap: wrap;
-
     margin-left: calc(-1 * var(--columns-gap));
     margin-top: calc(-1 * var(--columns-gap));
   }
   .main-list__item {
+    display: flex;
     flex-basis: calc((100% - 60px) / 2);
     margin-left: var(--columns-gap);
     margin-top: var(--columns-gap);
   }
-
-  .main-btn-list {
-    justify-content: center;
+  .main-list__link{
+    display: flex;
+    flex-direction: column;
   }
-  .bottom-teh {
-    padding-bottom: 56px;
+
+  .main-item-bottom{
+    flex-grow: 1;
+  }
+
+  .main-list__item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main-list__item {
     flex-basis: calc((100% - 90px) / 3);
-  }
-  .main-item-bottom {
-    padding: 20px;
   }
 }
