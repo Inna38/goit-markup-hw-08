@@ -220,10 +220,20 @@
     left: 1px;
   }
 }
-@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 479px) {
   .modal {
     width: 310px;
-    height: 630px;
+    height: 570px;
+  }
+
+  .modal-btn {
+    right: 10px;
+  }
+
+  .backdrop-form {
+    padding: 30px;
   }
   .checkbox-label {
     font-size: 10px;
@@ -234,7 +244,14 @@
     font-size: 10px;
     line-height: 1.71;
   }
+
+  .form-field-wraper {
+    margin-bottom: 10px;
+  }
 }
+
+
+
 @media screen and (min-width: 480px) {
   .modal {
     width: 450px;
@@ -250,6 +267,7 @@
     line-height: 1.71;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;

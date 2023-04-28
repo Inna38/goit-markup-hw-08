@@ -77,53 +77,54 @@
             </svg>
           </button>
 
-          <nav class="mobile-nav">
-            <ul class="">
-              <li class="mobile-nav__list-item">
-                <a class="nav-link current" href="">Студія</a>
+            <nav class="mobile-nav">
+              <ul class="">
+                <li class="mobile-nav__list-item">
+                  <a class="nav-link mobile-nav__link current" href="">Студія</a>
+                </li>
+                <li class="mobile-nav__list-item">
+                  <a class="nav-link mobile-nav__link" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mobile-nav__list-item">
+                  <a class="nav-link mobile-nav__link" href="">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <ul class="mobile-right">
+              <li class="mobile-contact">
+                <a class="header-contacts mail" href="mailto:info@devstudio.com">
+                  <svg class="contacts-item" width="16" height="12">
+                    <use href="./imges/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
               </li>
-              <li class="mobile-nav__list-item">
-                <a class="nav-link" href="./portfolio.html">Портфоліо</a>
-              </li>
-              <li class="mobile-nav__list-item">
-                <a class="nav-link" href="">Контакти</a>
+              <li class="mobile-contact">
+                <a class="header-contacts numder" href="tel:+380961111111">
+                  <svg class="contacts-item" width="10" height="16">
+                    <use href="./imges/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
               </li>
             </ul>
-          </nav>
+  
+            <ul class="mobile-social-list">
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="">Instagram</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="">Twitter</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="">Facebook</a>
+              </li>
+              <li class="mobile-social-list__item">
+                <a class="mobile-social-list__link" href="">LinkedIn</a>
+              </li>
+            </ul>
 
-          <ul class="mobile-right">
-            <li class="mobile-contact">
-              <a class="header-contacts mail" href="mailto:info@devstudio.com">
-                <svg class="contacts-item" width="16" height="12">
-                  <use href="./imges/sprite.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="mobile-contact">
-              <a class="header-contacts numder" href="tel:+380961111111">
-                <svg class="contacts-item" width="10" height="16">
-                  <use href="./imges/sprite.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-
-          <ul class="mobile-social-list">
-            <li class="mobile-social-list__item">
-              <a class="mobile-social-list__link" href="">Instagram</a>
-            </li>
-            <li class="mobile-social-list__item">
-              <a class="mobile-social-list__link" href="">Twitter</a>
-            </li>
-            <li class="mobile-social-list__item">
-              <a class="mobile-social-list__link" href="">Facebook</a>
-            </li>
-            <li class="mobile-social-list__item">
-              <a class="mobile-social-list__link" href="">LinkedIn</a>
-            </li>
-          </ul>
         </div>
       </div>
     </header>
@@ -206,16 +207,17 @@
               <picture>
                 <source
                   srcset="
-                    ./imges/webp/about-1.webp    1x,
-                    ./imges/webp/about-1@2x.webp 2x
+                    ./imges/webp/about-1-desktop-1x.webp    1x,
+                    ./imges/webp/about-1-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  srcset="./imges/about-1.jpg 1x, ./imges/about-1@2x.jpg 2x"
+                  srcset="./imges/about-1-desktop-1x.jpg 1x, 
+                  ./imges/about-1-desktop-@2x.jpg 2x"
                 />
                 <img
-                  src="./imges/about-1.jpg"
+                  src="./imges/about-1-desktop-1x.jpg"
                   alt="робота за компьютером"
                   width="370"
                 />
@@ -227,16 +229,17 @@
               <picture>
                 <source
                   srcset="
-                    ./imges/webp/about-2.webp    1x,
-                    ./imges/webp/about-2@2x.webp 2x
+                    ./imges/webp/about-2-desktop-1x.webp    1x,
+                    ./imges/webp/about-2-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  srcset="./imges/about-2.jpg 1x, ./imges/about-2@2x.jpg 2x"
+                  srcset="./imges/about-2-desktop-1x.jpg 1x,
+                   ./imges/about-2-desktop-@2x.jpg 2x"
                 />
                 <img
-                  src="./imges/about-2.jpg"
+                  src="./imges/about-2-desktop-1x.jpg"
                   alt="робота за ноутбуком"
                   width="370"
                 />
@@ -248,16 +251,17 @@
               <picture>
                 <source
                   srcset="
-                    ./imges/webp/about-3.webp    1x,
-                    ./imges/webp/about-3@2x.webp 2x
+                    ./imges/webp/about-3-desktop-1x.webp    1x,
+                    ./imges/webp/about-3-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  srcset="./imges/about-3.jpg 1x, ./imges/about-3@2x.jpg 2x"
+                  srcset="./imges/about-3-desktop-1x.jpg 1x, 
+                  ./imges/about-3-desktop-@2x.jpg 2x"
                 />
                 <img
-                  src="./imges/about-3.jpg"
+                  src="./imges/about-3-desktop-1x.jpg"
                   alt="робота на планшеті"
                   width="370"
                 />
@@ -279,48 +283,49 @@
                 <source
                   media="(min-width:1200px)"
                   srcset="
-                    ./imges/webp/team-1.webp    1x,
-                    ./imges/webp/team-1@2x.webp 2x
+                    ./imges/webp/team-1-desktop-1x.webp    1x,
+                    ./imges/webp/team-1-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:1200px)"
-                  srcset="./imges/team-1.jpg 1x, ./imges/team-1@2x.jpg 2x"
+                  srcset="./imges/team-1-desktop-1x.jpg 1x,
+                   ./imges/team-1-desktop-@2x.jpg 2x"
                 />
 
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/wedp/team-1.webp    1x,
-                    ./imges/tablet/wedp/team-1@2x.webp 2x
+                    ./imges/tablet/wedp/team-1-tablet-1x.webp    1x,
+                    ./imges/tablet/wedp/team-1-tablet-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/team-1.jpg    1x,
-                    ./imges/tablet/team-1@2x.jpg 2x
+                    ./imges/tablet/team-1-tablet-1x.jpg    1x,
+                    ./imges/tablet/team-1-tablet-@2x.jpg 2x
                   "
                 />
 
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/webp/team-1.webp    1x,
-                    ./imges/mobile/webp/team-1@2x.webp 2x
+                    ./imges/mobile/webp/team-1-mobile-1x.webp    1x,
+                    ./imges/mobile/webp/team-1-mobile-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/team-1.jpg    1x,
-                    ./imges/mobile/team-1@2x.jpg 2x
+                    ./imges/mobile/team-1-mobile-1x.jpg    1x,
+                    ./imges/mobile/team-1-mobile-@2x.jpg 2x
                   "
                 />
-                <img src="./imges/team-1.jpg" alt="Ігор Дем'яненко" />
+                <img src="./imges/team-1-desktop-1x.jpg" alt="Ігор Дем'яненко" />
               </picture>
 
               <div class="team-item-bottom">
@@ -367,48 +372,49 @@
                 <source
                   media="(min-width:1200px)"
                   srcset="
-                    ./imges/webp/team-2.webp    1x,
-                    ./imges/webp/team-2@2x.webp 2x
+                    ./imges/webp/team-2-desktop-1x.webp    1x,
+                    ./imges/webp/team-2-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:1200px)"
-                  srcset="./imges/team-2.jpg 1x, ./imges/team-2@2x.jpg 2x"
+                  srcset="./imges/team-2-desktop-1x.jpg 1x, 
+                  ./imges/team-2-desktop-@2x.jpg 2x"
                 />
 
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/wedp/team-2.webp    1x,
-                    ./imges/tablet/wedp/team-2@2x.webp 2x
+                    ./imges/tablet/wedp/team-2-tablet-1x.webp    1x,
+                    ./imges/tablet/wedp/team-2-tablet-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/team-2.jpg    1x,
-                    ./imges/tablet/team-2@2x.jpg 2x
+                    ./imges/tablet/team-2-tablet-1x.jpg    1x,
+                    ./imges/tablet/team-2-tablet-@2x.jpg 2x
                   "
                 />
 
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/webp/team-2.webp    1x,
-                    ./imges/mobile/webp/team-2@2x.webp 2x
+                    ./imges/mobile/webp/team-2-mobile-1x.webp    1x,
+                    ./imges/mobile/webp/team-2-mobile-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/team-2.jpg    1x,
-                    ./imges/mobile/team-2@2x.jpg 2x
+                    ./imges/mobile/team-2-mobile-1x.jpg    1x,
+                    ./imges/mobile/team-2-mobile-@2x.jpg 2x
                   "
                 />
-                <img src="./imges/team-2.jpg" alt="Ольга Рєпіна" />
+                <img src="./imges/team-2-desktop-1x.jpg" alt="Ольга Рєпіна" />
               </picture>
 
               <div class="team-item-bottom">
@@ -455,48 +461,49 @@
                 <source
                   media="(min-width:1200px)"
                   srcset="
-                    ./imges/webp/team-3.webp    1x,
-                    ./imges/webp/team-3@2x.webp 2x
+                    ./imges/webp/team-3-desktop-1x.webp    1x,
+                    ./imges/webp/team-3-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:1200px)"
-                  srcset="./imges/team-3.jpg 1x, ./imges/team-3@2x.jpg 3x"
+                  srcset="./imges/team-3-desktop-1x.jpg 1x, 
+                  ./imges/team-3-desktop-@2x.jpg 3x"
                 />
 
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/wedp/team-3.webp    1x,
-                    ./imges/tablet/wedp/team-3@2x.webp 2x
+                    ./imges/tablet/wedp/team-3-tablet-1x.webp    1x,
+                    ./imges/tablet/wedp/team-3-tablet-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/team-3.jpg    1x,
-                    ./imges/tablet/team-3@2x.jpg 2x
+                    ./imges/tablet/team-3-tablet-1x.jpg    1x,
+                    ./imges/tablet/team-3-tablet-@2x.jpg 2x
                   "
                 />
 
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/webp/team-3.webp    1x,
-                    ./imges/mobile/webp/team-3@2x.webp 2x
+                    ./imges/mobile/webp/team-3-mobile-1x.webp    1x,
+                    ./imges/mobile/webp/team-3-mobile-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/team-3.jpg    1x,
-                    ./imges/mobile/team-3@2x.jpg 2x
+                    ./imges/mobile/team-3-mobile-1x.jpg    1x,
+                    ./imges/mobile/team-3-mobile-@2x.jpg 2x
                   "
                 />
-                <img src="./imges/team-3.jpg" alt="Микола Тарасов" />
+                <img src="./imges/team-3-desktop-1x.jpg" alt="Микола Тарасов" />
               </picture>
 
               <div class="team-item-bottom">
@@ -543,48 +550,49 @@
                 <source
                   media="(min-width:1200px)"
                   srcset="
-                    ./imges/webp/team-4.webp    1x,
-                    ./imges/webp/team-4@2x.webp 2x
+                    ./imges/webp/team-4-desktop-1x.webp    1x,
+                    ./imges/webp/team-4-desktop-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:1200px)"
-                  srcset="./imges/team-4.jpg 1x, ./imges/team-4@2x.jpg 3x"
+                  srcset="./imges/team-4-desktop-1x.jpg 1x,
+                   ./imges/team-4-desktop-@2x.jpg 3x"
                 />
 
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/wedp/team-4.webp    1x,
-                    ./imges/tablet/wedp/team-4@2x.webp 2x
+                    ./imges/tablet/wedp/team-4-tablet-1x.webp    1x,
+                    ./imges/tablet/wedp/team-4-tablet-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
                   media="(min-width:768px)"
                   srcset="
-                    ./imges/tablet/team-4.jpg    1x,
-                    ./imges/tablet/team-4@2x.jpg 2x
+                    ./imges/tablet/team-4-tablet-1x.jpg    1x,
+                    ./imges/tablet/team-4-tablet-@2x.jpg 2x
                   "
                 />
 
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/webp/team-4.webp    1x,
-                    ./imges/mobile/webp/team-4@2x.webp 2x
+                    ./imges/mobile/webp/team-4-mobile-1x.webp    1x,
+                    ./imges/mobile/webp/team-4-mobile-@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  media="(min-width:320px)"
+                  media="(max-width:767px)"
                   srcset="
-                    ./imges/mobile/team-4.jpg    1x,
-                    ./imges/mobile/team-4@2x.jpg 2x
+                    ./imges/mobile/team-4-mobile-1x.jpg    1x,
+                    ./imges/mobile/team-4-mobile-@2x.jpg 2x
                   "
                 />
-                <img src="./imges/team-4.jpg" alt="Михайло Єрмаков" />
+                <img src="./imges/team-4-desktop-1x.jpg" alt="Михайло Єрмаков" />
               </picture>
 
               <div class="team-item-bottom">

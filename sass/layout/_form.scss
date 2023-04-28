@@ -3,7 +3,8 @@
 }
 
 .form__input {
-  margin-top: 20px;
+  width: 100%;
+  max-width: 480px;
   height: 50px;
   background-color: transparent;
   color: #ffffff;
@@ -11,6 +12,8 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding-left: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   &::placeholder {
     font-size: 16px;
@@ -40,13 +43,8 @@
     background-image: url(../imges/icon-send.svg);
   }
 }
-@media screen and (min-width: 320px) {
-  .form__input {
-    width: 100%;
-    max-width: 480px;
-    margin-bottom: 20px;
-  }
-}
+
+
 @media screen and (min-width: 1200px) {
   .form__input {
     width: 350px;
