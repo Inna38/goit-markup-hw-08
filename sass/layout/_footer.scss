@@ -12,6 +12,10 @@
   margin-bottom: 60px;
 }
 
+.footer-item{
+margin-top: 9px;
+}
+
 .address {
   font-style: normal;
   font-size: 14px;
@@ -77,8 +81,6 @@
   .footer-container {
     display: flex;
     align-items: baseline;
-    padding-top: 60px;
-    padding-bottom: 60px;
     position: relative;
   }
   .footer-left {

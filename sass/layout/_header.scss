@@ -150,6 +150,13 @@
   }
 }
 
+@media screen and (max-width: 767px){
+    .burger:hover,
+    .burger:focus{
+      fill: var(--accent-color);
+    }
+}
+
 @media screen and (min-width: 1200px) {
   .header-left {
     display: flex;
@@ -293,12 +300,16 @@
 
 .mobile-social-list__link {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-
+@media screen and (max-width: 319px){
+.mobile-social-list__link {
+  font-size: 9px;
+}
+}
 @media screen and (min-width: 380px) {
   .mobile-nav__list-item:not(:last-child) {
     margin-bottom: 32px;
@@ -327,6 +338,6 @@
 
   .mobile-social-list__link {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
   }
 }
